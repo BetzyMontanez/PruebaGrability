@@ -1,0 +1,15 @@
+package com.montanez.betzy.prueba_grability.activities;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+import com.montanez.betzy.prueba_grability.R;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+}
